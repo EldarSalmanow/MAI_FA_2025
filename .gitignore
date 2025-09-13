@@ -1,3 +1,8 @@
+# CLion auto-generated and special IDE directories & files
+.idea
+cmake-build-debug-wsl
+cmake-build-release-wsl
+
 # Prerequisites
 *.d
 
@@ -39,7 +44,3 @@
 
 # debug information files
 *.dwo
-
-.idea
-cmake-build-debug-wsl
-cmake-build-release-wsl
