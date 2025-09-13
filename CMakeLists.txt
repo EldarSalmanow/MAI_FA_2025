@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.23)
+project(MAI_FA_2025)
+
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+include(cmake/Utils.cmake)
+
+add_subdirectory(lab1)
