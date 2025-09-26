@@ -37,7 +37,7 @@ int main(int argc,
         return 1;
     }
 
-    int32_t precision = ceil(-log10(arguments.epsilon));
+    uint32_t precision = ceil(-log10(arguments.epsilon));
 
     for (uint64_t i = 0; i < IntegralsCount; ++i) {
         double integral = TrapezoidRunge(Borders[i * 2],

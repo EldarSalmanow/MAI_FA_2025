@@ -82,7 +82,7 @@ int32_t SolveEquation(double a,
                       double epsilon) {
     double coefficients[3] = {a, b, c};
     double roots[2];
-    int32_t precision = ceil(-log10(epsilon));
+    uint32_t precision = ceil(-log10(epsilon));
 
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
